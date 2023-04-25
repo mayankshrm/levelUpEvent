@@ -1,0 +1,69 @@
+.container3{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.section3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.left3{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    justify-content: center;
+    
+}
+.right3{
+    flex:1;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.listitem{
+font-size: 100px;
+font-weight: bold;
+cursor: pointer;
+color: transparent;
+-webkit-text-stroke: 1px white ;
+position: relative;
+
+
+
+}
+
+.listitem::after{
+    content: attr(text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: pink;
+    width: 0px;
+    overflow: hidden;
+    
+}
+
+.listitem:hover::after{
+    animation: moveText 0.5s linear both;
+
+    
+}
+
+@keyframes moveText {
+    to{
+        width:100%;
+    }
+    
+}

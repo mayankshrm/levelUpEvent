@@ -1,0 +1,11 @@
+.containerMain{
+    background-color: rebeccapurple;
+    height: 100vh;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    scrollbar-width: none;
+    color: white;
+   background: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
+   background-repeat: no-repeat;
+} 

@@ -1,0 +1,42 @@
+@media only screen and (max-width:1024px){
+
+    .Map{
+        display: none;
+    }
+}
+
+
+.Container1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.Container2{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+.card{
+    flex: 4;
+}
+
+.Map{
+    flex: 2;
+    position: sticky;
+    padding: 10px;
+    top: 10px;
+}
+
+.container4{
+    height: 100vh;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    scrollbar-width: none;
+    color: white;
+   background: url("https://raw.githubusercontent.com/safak/youtube23/3d-portfolio/public/img/bg.jpeg");
+   background-repeat: no-repeat;
+}
